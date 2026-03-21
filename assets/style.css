@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap');
+
+html,
+body,
+[class*="css"] {
+    font-family: 'Outfit', sans-serif;
+    color: #E2E8F0;
+}
+
+header[data-testid="stHeader"] {
+    background-color: transparent !important;
+}
+
+/* Beautiful Dashboard Header */
+.dashboard-header {
+    text-align: center;
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    background: radial-gradient(circle at 50% 0%, rgba(0, 230, 118, 0.1) 0%, transparent 70%);
+}
+
+.dashboard-header h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(90deg, #00E676 0%, #00B0FF 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0px 4px 20px rgba(0, 230, 118, 0.2);
+}
+
+.dashboard-header .subtitle {
+    color: #94A3B8;
+    font-size: 1.1rem;
+    font-weight: 300;
+    margin-top: 0.5rem;
+    letter-spacing: 1px;
+}
+
+/* Metric Cards */
+.metric-container {
+    background: linear-gradient(145deg, #111827 0%, #0F172A 100%);
+    border: 1px solid rgba(0, 230, 118, 0.1);
+    border-radius: 16px;
+    padding: 24px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 1.5rem;
+    transition: all 0.3s ease;
+}
+
+.metric-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(90deg, #00E676, #00B0FF);
+}
+
+.metric-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0, 230, 118, 0.15);
+    border-color: rgba(0, 230, 118, 0.3);
+}
+
+.metric-icon {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #00E676;
+}
+
+.metric-label {
+    color: #94A3B8;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: 600;
+}
+
+.metric-value {
+    color: #FFFFFF;
+    font-size: 3rem;
+    font-weight: 800;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 0 0 20px rgba(0, 230, 118, 0.4);
+    margin-top: 5px;
+}
+
+/* Sidebar styling */
+[data-testid="stSidebar"] {
+    background-color: #070B14 !important;
+    border-right: 1px solid rgba(255, 255, 255, 0.05) !important;
+}
+
+.sidebar-title {
+    color: #FFFFFF !important;
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.stButton>button {
+    background: rgba(255, 255, 255, 0.05) !important;
+    color: #E2E8F0 !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-radius: 8px !important;
+    font-weight: 600 !important;
+    padding: 10px 24px !important;
+    transition: all 0.3s ease !important;
+}
+
+.stButton>button:hover {
+    background: rgba(0, 230, 118, 0.1) !important;
+    border-color: #00E676 !important;
+    color: #00E676 !important;
+    box-shadow: 0 0 15px rgba(0, 230, 118, 0.2) !important;
+}
+
+.stButton>button:active {
+    background: #00E676 !important;
+    color: #000000 !important;
+}
+
+[data-testid="stImage"] img {
+    border-radius: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6);
+}
+
+.custom-footer {
+    text-align: center;
+    padding: 2rem 0;
+    margin-top: 4rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+    color: #64748B;
+    font-size: 0.85rem;
+    letter-spacing: 0.5px;
+}
