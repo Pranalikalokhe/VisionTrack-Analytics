@@ -1,6 +1,7 @@
 {
-    "python.defaultInterpreterPath": "${workspaceFolder}/venv/Scripts/python.exe",
+    "python.defaultInterpreterPath": "d:\\VisionTrack Analytics\\venv\\Scripts\\python.exe",
     "python.analysis.extraPaths": [
-        "${workspaceFolder}"
+        "d:\\VisionTrack Analytics",
+        "d:\\VisionTrack Analytics\\venv\\Lib\\site-packages"
     ]
 }
