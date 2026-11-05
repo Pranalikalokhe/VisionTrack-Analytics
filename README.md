@@ -2,7 +2,7 @@
 
 ![VisionTrack Banner](https://img.shields.io/badge/AI-Computer_Vision-blue?style=for-the-badge&logo=python) ![FastAPI](https://img.shields.io/badge/Backend-FastAPI-009688?style=for-the-badge&logo=fastapi) ![Streamlit](https://img.shields.io/badge/Frontend-Streamlit-FF4B4B?style=for-the-badge&logo=streamlit) ![YOLOv8](https://img.shields.io/badge/Model-YOLOv8-FF9900?style=for-the-badge)
 
-**Real-Time People & Vehicle Monitoring System powered by AI**
+Real-Time People & Vehicle Monitoring System 
 
 VisionTrack Analytics is a state-of-the-art computer vision application built to detect and track people and vehicles in real time. It is designed to demonstrate advanced AI concepts in an accessible, visually impressive manner. The core engine uses YOLOv8 for rapid object detection, coupled with ByteTrack logic for persistent tracking over video frames. Built for modern use cases like smart cities, retail analytics, and surveillance, it provides an intuitive web interface packed with actionable metrics.
 
